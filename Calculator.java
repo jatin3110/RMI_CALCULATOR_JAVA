@@ -11,7 +11,7 @@ import java.rmi.RemoteException;
 
 /** Calculator Interface **/
 public interface Calculator extends Remote {
-    float add(String val1, String val2) throws RemoteException;
+    float add(String val1, String val2) throws RemoteException;     
     float subtract(String val1, String val2) throws RemoteException;
     float multiply(String val1, String val2) throws RemoteException;
     float divide(String val1, String val2) throws RemoteException;
