@@ -40,7 +40,7 @@ public class Client {
     }
     
     /** Assign event listeners to GUI buttons **/
-    private void createEventListeners() {
+    private void createEventListeners() {  
     	JTextArea calculationText = clientGUI.getCalculationText();
     	
     	clientGUI.getZeroButton().addActionListener(new ActionListener() {
