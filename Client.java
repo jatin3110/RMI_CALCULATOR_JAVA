@@ -17,7 +17,7 @@ import java.rmi.RemoteException;
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 
-public class Client {
+public class Client {   
     /** Client variables **/
 	private float result = 0;
     private String message = "";
